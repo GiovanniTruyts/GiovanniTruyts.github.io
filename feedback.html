@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="sobre-mim.html">
+                    Sobre mim
+                </a>
+            </li>
+            <li>
+                <a href="formacao.html">
+                    Formação
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html">
+                    Portfólio
+                </a>
+            </li>
+            <li>
+                <a href="contato.html">
+                    Contato
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="pagina">
+        <h3 id="obrigado">
+
+        </h3>
+        <img src="assets/stickasdfsder.png" alt="gato burro">
+    </div>
+    <script>
+        var nome = new URLSearchParams(document.location.search).get("nome");
+        document.getElementById("obrigado").innerHTML = "Obrigado " + nome + "!";
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 4px;
+}
+li {
+    float: left;
+    padding: 12px;
+}
+li:hover {
+    background-color: rgb(214, 186, 240);
+    border-radius: 8px;
+}
+#pagina {
+    margin-left: 5%;
+    margin-right: 30%;
+    text-align: justify;
+}
