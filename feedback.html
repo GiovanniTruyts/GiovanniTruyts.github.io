@@ -45,6 +45,7 @@
         <img src="assets/obrigado.png" alt="obrigado">
     </div>
     <script>
+        // um script para exibir o nome do remetente na página
         var nome = new URLSearchParams(document.location.search).get("nome");
         document.getElementById("obrigado").innerHTML = "Obrigado " + nome + "!";
     </script>
