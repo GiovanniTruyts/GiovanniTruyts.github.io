@@ -12,7 +12,7 @@ body {
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: rgb(196, 235, 173);
     display: flex;
     justify-content: center;
     border-radius: 8px;
@@ -23,7 +23,7 @@ li {
     padding: 12px;
 }
 li:hover {
-    background-color: rgb(115, 145, 205);
+    background-color: rgb(115, 195, 101);
     border-radius: 8px;
 }
 #pagina {
