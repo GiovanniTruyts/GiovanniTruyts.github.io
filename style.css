@@ -26,6 +26,9 @@ li:hover {
     background-color: rgb(115, 195, 101);
     border-radius: 8px;
 }
+#bemvindo {
+    width: 200px;
+}
 #pagina {
     margin-left: 5%;
     margin-right: 30%;
